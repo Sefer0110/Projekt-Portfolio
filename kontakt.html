@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Kapten Snetand</title>
+    <meta name="description" content="Kontakta Kapten Snetand via kontaktformuläret.">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav" aria-label="Huvudmeny">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="index.html" class="header__nav-link">Om mig</a></li>
+                <li class="header__nav-item"><a href="kompetenser.html" class="header__nav-link">Kompetenser</a></li>
+                <li class="header__nav-item"><a href="projekt.html" class="header__nav-link">Projekt</a></li>
+                <li class="header__nav-item"><a href="utbildning.html" class="header__nav-link">Utbildning</a></li>
+                <li class="header__nav-item"><a href="kontakt.html" class="header__nav-link" aria-current="page">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact">
+        <h1 class="contact__title">Kontakta Kapten Snetand</h1>
+
+        <section class="contact__section">
+            <h2 class="contact__subtitle">Kontaktuppgifter</h2>
+            <p class="contact__text">Har du frågor eller vill samarbeta? Kontakta mig gärna!</p>
+            <p class="contact__text">
+                E-post:
+                <a class="contact__link" href="mailto:kapten@example.com">kapten@example.com</a>
+            </p>
+        </section>
+
+        <section class="contact__section">
+            <h2 class="contact__subtitle">Kontaktformulär</h2>
+
+            <form class="contact-form" action="tack.php" method="post">
+
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="name">Namn:</label>
+                    <input class="contact-form__input" type="text" id="name" name="name" required>
+                </div>
+
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="email">E-post:</label>
+                    <input class="contact-form__input" type="email" id="email" name="email" required>
+                </div>
+
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="subject">Ämne:</label>
+                    <select class="contact-form__select" id="subject" name="subject" required>
+                        <option value="">Välj ämne</option>
+                        <option value="fraga">Fråga</option>
+                        <option value="samarbete">Samarbete</option>
+                        <option value="annat">Annat</option>
+                    </select>
+                </div>
+
+                <fieldset class="contact-form__group">
+                    <legend class="contact-form__legend">Vill du ha svar?</legend>
+
+                    <input class="contact-form__radio" type="radio" id="yes" name="reply" value="ja" required>
+                    <label class="contact-form__label" for="yes">Ja</label>
+
+                    <input class="contact-form__radio" type="radio" id="no" name="reply" value="nej">
+                    <label class="contact-form__label" for="no">Nej</label>
+                </fieldset>
+
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="message">Meddelande:</label>
+                    <textarea class="contact-form__textarea" id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button class="contact-form__button" type="submit">Skicka</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">© 2026 Kapten Snetand</p>
+    </footer>
+</body>
+</html>
