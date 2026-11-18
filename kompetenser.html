@@ -1,41 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kompetenser - Kapten Snetand</title>
-    <meta name="description" content="Se hur Kapten Snetand använder HTML, CSS och Javascript för att bygga tillgängliga webbplatser.">
-    <link rel="stylesheet" href="css/style.css">
+    <meta
+      name="description"
+      content="Se hur Kapten Snetand använder HTML, CSS och Javascript för att bygga tillgängliga."
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="header__nav" aria-label="Huvudmeny">
-            <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="index.html" class="header__nav-link">Om mig</a></li>
-                <li class="header__nav-item"><a href="kompetenser.html" class="header__nav-link" aria-current="page">Kompetenser</a></li>
-                <li class="header__nav-item"><a href="projekt.html" class="header__nav-link">Projekt</a></li>
-                <li class="header__nav-item"><a href="utbildning.html" class="header__nav-link">Utbildning</a></li>
-                <li class="header__nav-item"><a href="kontakt.html" class="header__nav-link">Kontakt</a></li>
-            </ul>
-        </nav>
+      <nav class="header__nav" aria-label="Huvudmeny">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="index.html" class="header__nav-link">Om mig</a>
+          </li>
+          <li class="header__nav-item">
+            <a
+              href="kompetenser.html"
+              class="header__nav-link"
+              aria-current="page"
+              >Kompetenser</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a href="projekt.html" class="header__nav-link">Projekt</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="utbildning.html" class="header__nav-link">Utbildning</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="kontakt.html" class="header__nav-link">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main class="about">
-        <h1 class="about__title">Kapten Snetand</h1>
-        <figure class="about__figure">
-            <img class="about__image" src="images/kapten-snetand.png"
-            alt="Kapten Snetand i kostym, med ett stort leende och bakåtslickat hår."
-            width="1122" height="1402">
-            <figcaption class="about__caption"> Kapten Snetand, Webbutvecklare</figcaption>
-        </figure>
-        <section class="about__section">
-            <h2 class="about__subtitle">Om mig</h2>
-            <p class="about__text"> Jag heter Kapten Snetand och är webbutvecklare med intresse för design.
-                Jag vill bygga webbplatser där alla besökare enkelt hittar det de söker.</p>
-            </section>
+    <main class="skills">
+      <h1 class="skills__title">Kompetenser</h1>
+      <table class="skills__table">
+        <caption class="skills__caption">
+          Mina kompetenser
+        </caption>
+        <thead class="skills__head">
+          <tr class="skills__row">
+            <th class="skills__heading" scope="col">Kompetens</th>
+            <th class="skills__heading" scope="col">Nivå</th>
+            <th class="skills__heading" scope="col">Erfarenhet</th>
+          </tr>
+        </thead>
+        <tbody class="skills__body">
+          <tr class="skills__row">
+            <td class="skills__cell">HTML</td>
+            <td class="skills__cell">Avancerad</td>
+            <td class="skills__cell">Högskolan Dalarna</td>
+          </tr>
+          <tr class="skills__row">
+            <td class="skills__cell">CSS</td>
+            <td class="skills__cell">Avancerad</td>
+            <td class="skills__cell">Högskolan Dalarna</td>
+          </tr>
+          <tr class="skills__row">
+            <td class="skills__cell">JavaScript</td>
+            <td class="skills__cell">God</td>
+            <td class="skills__cell">Högskolan Dalarna</td>
+          </tr>
+          <tr class="skills__row">
+            <td class="skills__cell">Webbdesign</td>
+            <td class="skills__cell">Avancerad</td>
+            <td class="skills__cell">Högskolan Dalarna</td>
+          </tr>
+          <tr class="skills__row">
+            <td class="skills__cell">Tillgänglighet</td>
+            <td class="skills__cell">God</td>
+            <td class="skills__cell">Högskolan Dalarna</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <footer class="footer">
-        <p class="footer__text">© 2026 Kapten Snetand</p>
+      <p class="footer__text">© 2026 Kapten Snetand</p>
     </footer>
-</body>
+  </body>
 </html>
