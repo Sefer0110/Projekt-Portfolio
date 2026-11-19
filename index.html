@@ -28,11 +28,31 @@
             width="1122" height="1402">
             <figcaption class="about__caption"> Kapten Snetand, Webbutvecklare</figcaption>
         </figure>
-        <section class="about__section">
-            <h2 class="about__subtitle">Om mig</h2>
-            <p class="about__text"> Jag heter Kapten Snetand och är webbutvecklare med intresse för design.
-                Jag vill bygga webbplatser där alla besökare enkelt hittar det de söker.</p>
-            </section>
+        
+<section class="about__section">
+    <h2 class="about__subtitle">Om mig</h2>
+
+    <p class="about__text">
+        Jag heter Kapten Snetand och är webbutvecklare
+        med intresse för design. Jag vill bygga webbplatser
+        där alla besökare enkelt hittar det de söker.
+    </p>
+
+    <button class="about__button" type="button"
+            data-js-action="toggle-info"
+            aria-expanded="false"
+            aria-controls="extra-info">
+        Läs mer om mig
+    </button>
+
+    <p class="about__text" id="extra-info"
+       data-js-target="extra-info" hidden>
+        Jag tycker om att arbeta med HTML, CSS och JavaScript.
+        Mitt mål är att skapa enkla och användarvänliga
+        webbplatser som fungerar på både dator och mobil.
+    </p>
+</section>
+
     </main>
     <footer class="footer">
         <p class="footer__text">© 2026 Kapten Snetand</p>
