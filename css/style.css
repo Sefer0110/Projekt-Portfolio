@@ -37,3 +37,45 @@ border-radius: 30%;
 .about__section {}
 .about__subtitle {}
 .about__text {}
+
+body {
+    background-color: aliceblue;
+    color: black;
+    font-family: arial, helvetica, sans-serif;
+}
+.header {
+    padding: 20px;
+}
+.header_nav-list {
+display: flex;
+justify-content: center;
+gap: 10px;
+list-style: none;
+margin: 0;  
+padding: 0;
+}
+.skills {
+max-width: 800px;
+margin: 0 auto;
+padding:20px
+.skills_title {
+text-align: center;
+font-size: 36px;
+margin-bottom: 30px;
+}
+.skills__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.skills__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.skills__table th,
+.skills__table td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+}
+.skills__table th {
+    background-color: lightblue;
