@@ -139,4 +139,73 @@ margin-bottom: 30px;
     .projects__link:hover {
         background-color: skyblue;
     }
+
+
+    /*kontaktsidan*/
+    .contact {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .contact__title {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .contact__section {
+        margin-bottom: 30px;
+    }
+
+    .contact__subtitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .contact__text {
+        line-height: 1.6;
+    }
+
+    .contact__link  {
+        color:darkblue;
+
+    }
+
+     /*kontaktformuläret*/
+    .contact__form {
+        background-color: white;
+        padding : 20px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+
+    .contact-form__field {
+        margin-bottom: 20px;
+    }
+
+    .contact-form__label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .contact-form__input,
+    .contact-form__select,
+    .contact-form__textarea {
+        display:block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        cursor: pointer;
+        font: inherit;
+    }
+
+    .contact-form__button:hover {
+        background-color: skyblue;
+    }
+
+
+
+
     
