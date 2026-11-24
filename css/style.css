@@ -1,211 +1,267 @@
 body {
-    background-color: aliceblue;
-    color: black;
+  background-color: aliceblue;
+  color: black;
+  font-family: arial, helvetica, sans-serif;
 }
 
-
-.header {}
-.header__nav {}
+.header {
+  padding: 20px;
+}
+.header__nav {
+}
 .header__nav-list {
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.header__nav-item {}
-.header__nav-link {color:black;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;}
+.header__nav-item {
+}
+.header__nav-link {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .footer {
-    color:black}
+  color: black;
+}
 .footer__text {
-    color:black}
+  color: black;
+}
 
-.about {color:black}
+.about {
+  color: black;
+}
 .about__title {
-    color:black;
-    font-family: arial, sans-serif;
-    font-size: 50px;
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 50px;
 }
-.about__figure {}
-.about__image {width:300px;
-height: auto;
-border-radius: 30%;
+.about__figure {
 }
-.about__caption {}
-.about__section {}
-.about__subtitle {}
-.about__text {}
+.about__image {
+  width: 300px;
+  height: auto;
+  border-radius: 30%;
+}
+.about__caption {
+}
+.about__section {
+}
+.about__subtitle {
+}
+.about__text {
+}
+.about__button {
+}
 
-body {
-    background-color: aliceblue;
-    color: black;
-    font-family: arial, helvetica, sans-serif;
-}
-.header {
-    padding: 20px;
-}
-.header__nav-list {
-display: flex;
-justify-content: center;
-gap: 10px;
-list-style: none;
-margin: 0;  
-padding: 0;
-}
 .skills {
-max-width: 800px;
-margin: 0 auto;
-padding:20px;
-}
-.skills_title {
-text-align: center;
-font-size: 36px;
-margin-bottom: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 .skills__title {
-    font-size: 24px;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
 }
+
 .skills__table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
-.skills__table th,
-.skills__table td {
-    border: 1px solid black;
-    padding: 12px;
-    text-align: left;
+.skills__heading,
+.skills__cell {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: left;
 }
-.skills__table th {
-    background-color: lightblue;
+.skills__heading {
+  background-color: lightblue;
+}
+.skills__caption {
+}
+.skills__head {
+}
+.skills__row {
+}
+.skills__body {
 }
 
+/*Projektsidan*/
+.projects {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.projects__title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
 
+.projects__intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-    /*Projektsidan*/
-    .projects {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    .projects__title {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
-    
-    .projects__intro {
-        text-align: center;
-        margin-bottom: 30px;
-    }
+.projects__section {
+  margin-bottom: 30px;
+}
 
-    .projects__section {
-        margin-bottom: 30px;
-    }
+.projects__subtitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
-    .projects__subtitle {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+.projects__item {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
 
-    .projects__item {
-        background-color: white;
-        border: 1px solid lightgray;
-        border-radius: 10px;
-        padding: 20px;
-        margin-bottom: 15px;
-    }
+.projects__item-title {
+  font-size: 20px;
+  margin-top: 0;
+}
 
-    .projects__item-title {
-        font-size: 20px;
-        margin-top: 0;  
-    }
+.projects__text {
+  line-height: 1.6;
+}
 
-    .projects__text {
-        line-height: 1.6;
-    }
+.projects__link {
+  display: inline-block;
+  background-color: lightblue;
+  color: black;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
-    .projects__link {
-        display: inline-block;
-        background-color: lightblue;
-        color: black;
-        padding: 12px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-    }
+.projects__link:hover {
+  background-color: skyblue;
+}
 
-    .projects__link:hover {
-        background-color: skyblue;
-    }
+/* Education (utbildning.html) */
+.education {
+}
+.education__title {
+}
+.education__section {
+}
+.education__heading {
+}
+.education__text {
+}
+.education__list {
+}
+.education__item {
+}
+.education__item-title {
+}
 
+/* Experience (utbildning.html) */
+.experience {
+}
+.experience__title {
+}
+.experience__text {
+}
+.experience__list {
+}
+.experience__item {
+}
+.experience__item-title {
+}
 
-    /*kontaktsidan*/
-    .contact {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    .contact__title {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 30px;
-    }
+/*kontaktsidan*/
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact__title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
 
-    .contact__section {
-        margin-bottom: 30px;
-    }
+.contact__section {
+  margin-bottom: 30px;
+}
 
-    .contact__subtitle {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+.contact__subtitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
-    .contact__text {
-        line-height: 1.6;
-    }
+.contact__text {
+  line-height: 1.6;
+}
 
-    .contact__link  {
-        color:darkblue;
+.contact__link {
+  color: darkblue;
+}
 
-    }
+/*kontaktformuläret*/
 
-     /*kontaktformuläret*/
-    .contact__form {
-        background-color: white;
-        padding : 20px;
-        border: 1px solid lightgray;
-        border-radius: 10px;
-    }
+.contact-form {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
 
-    .contact-form__field {
-        margin-bottom: 20px;
-    }
+.contact-form__field {
+  margin-bottom: 20px;
+}
 
-    .contact-form__label {
-        display: inline-block;
-        margin-bottom: 5px;
-    }
+.contact-form__label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
 
-    .contact-form__input,
-    .contact-form__select,
-    .contact-form__textarea {
-        display:block;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 10px;
-        border: 1px solid lightgray;
-        border-radius: 5px;
-        cursor: pointer;
-        font: inherit;
-    }
+.contact-form__group {
+}
+.contact-form__legend {
+}
+.contact-form__radio {
+}
+.contact-form__button {
+}
 
-    .contact-form__button:hover {
-        background-color: skyblue;
-    }
+.contact-form__input,
+.contact-form__select,
+.contact-form__textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  font: inherit;
+}
 
+.contact-form__button:hover {
+  background-color: skyblue;
+}
 
-
-
-    
+/* Confirmation (tack.php) */
+.confirmation {
+}
+.confirmation__title {
+}
+.confirmation__text {
+}
+.confirmation__section {
+}
+.confirmation__subtitle {
+}
+.confirmation__link {
+}
