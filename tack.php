@@ -37,6 +37,7 @@
                 <li class="header__nav-item">
                     <a href="kontakt.html" class="header__nav-link">Kontakt</a>
                 </li>
+                <li class="header__nav-item"><a href="mal.html" class="header__nav-link">Livsmål</a></li>
             </ul>
         </nav>
     </header>
